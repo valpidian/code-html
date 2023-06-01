@@ -84,10 +84,18 @@
     color: white;
 }
 
+
 .sectoare {
-    /* Stilurile pentru .sectoare pot fi adăugate aici */
+  display: flex;
+  flex-direction: column;
 }
 
 .sector {
-    margin-bottom: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.sector .popup {
+  position: absolute;
+  bottom: 0;
 }
