@@ -1,0 +1,93 @@
+.popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+#zona_1,
+#zona_2,
+#zona_3,
+#zona_4,
+#zona_5,
+#zona_6,
+#zona_1 .format-titlu,
+#zona_2 .format-titlu,
+#zona_3 .format-titlu,
+#zona_4 .format-titlu,
+#zona_5 .format-titlu,
+#zona_6 .format-titlu,
+#zona_1 .format-icon,
+#zona_2 .format-icon,
+#zona_3 .format-icon,
+#zona_4 .format-icon,
+#zona_5 .format-icon,
+#zona_6 .format-icon {
+    margin: 0;
+    padding: 0;
+}
+
+#zona_1,
+#zona_2,
+#zona_3,
+#zona_4,
+#zona_5,
+#zona_6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #198E7B;
+    height: 60px;
+    border-radius: 6px;
+}
+
+#zona_1 .format-titlu,
+#zona_2 .format-titlu,
+#zona_3 .format-titlu,
+#zona_4 .format-titlu,
+#zona_5 .format-titlu,
+#zona_6 .format-titlu {
+    width: 70%;
+    margin-right: 10px;
+    justify-self: flex-start;
+    text-align: left;
+    color: white;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+#zona_1 .format-icon,
+#zona_2 .format-icon,
+#zona_3 .format-icon,
+#zona_4 .format-icon,
+#zona_5 .format-icon,
+#zona_6 .format-icon {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+}
+
+#zona_1 .format-icon i,
+#zona_2 .format-icon i,
+#zona_3 .format-icon i,
+#zona_4 .format-icon i,
+#zona_5 .format-icon i,
+#zona_6 .format-icon i {
+    font-size: 2rem;
+    color: white;
+}
+
+.sectoare {
+    /* Stilurile pentru .sectoare pot fi adăugate aici */
+}
+
+.sector {
+    margin-bottom: 5px;
+}
